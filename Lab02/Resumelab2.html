@@ -1,0 +1,89 @@
+<!--
+  Project: Personal Portfolio Website With CSS (Lab Assignment 2)
+  Page: index.html
+  Name: Sansar Kumar
+  Roll No: 2501350055
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Sansar Kumar</title>
+  
+  <link rel="stylesheet" href="Resumelab2.css">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>Sansar Kumar</h1>
+    <p>Student • Web Developer • Tech Enthusiast</p>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#Education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Explore my projects, skills, and ways to connect with me.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://avatars.githubusercontent.com/u/229724408?v=4" alt="Profile photo of Sansar Kumar" class="profile">
+      <p>Hello! I am Sansar, a passionate web development student who enjoys creating simple and responsive web pages using HTML, CSS, and JavaScript.</p>
+    </section>
+    <section id="Education">
+      <h2>Education</h2>
+      <ul>
+                 <li><strong>School:</strong> Sorvodya Bal Vidhylaya</li>
+                <li><strong>Graduation Year:</strong> 2024</li>
+                <li><strong>Current Study:</strong> B.Tech in Computer Science Engineering at K.R Mangalam University</li>
+      </ul>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Beginner</td></tr>
+          <tr><td>CSS</td><td>Beginner</td></tr>
+          <tr><td>JavaScript</td><td>Learning
+        
+          </td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    </main>
+</body>
+</html> 
