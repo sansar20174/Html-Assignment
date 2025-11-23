@@ -197,19 +197,40 @@ body{
   display:block;
 }
 
-.skill-list{ list-style:none; margin:0; padding:0; display:grid; gap:.9rem }
-.skill-list li{ display:grid; gap:.35rem }
-.skill-bar{
-  height:10px; background:rgba(255,255,255,0.03); border-radius:999px; overflow:hidden;
-  border:1px solid rgba(255,255,255,0.02)
+
+.simple-skills-grid {
+  display: grid;
+  gap: 1rem;
 }
-.skill-bar span{
-  display:block; height:100%; width:0; background: linear-gradient(90deg,var(--neon-1),var(--neon-2));
-  border-radius:999px; transform:translateX(-4%); animation: fillBar 1100ms var(--transition) forwards;
+
+.skill-card {
+  padding: 1rem;
 }
-@keyframes fillBar{
-  to{ width: var(--value, 70%) ; transform:none }
+
+.simple-skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
 }
+
+.simple-skill-list li {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.simple-skill-list span {
+  color: var(--text);
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .simple-skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 
 .services-grid{ display:grid; gap:1rem }
@@ -314,4 +335,29 @@ a:focus, button:focus, input:focus, textarea:focus{
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+
+.social-links {
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.social-btn {
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--neon-1);
+  border: 1px solid rgba(93, 208, 255, 0.15);
+  transition: all var(--transition);
+  display: inline-block;
+}
+
+.social-btn:hover {
+  background: linear-gradient(90deg, var(--neon-1), var(--neon-2));
+  color: #031027;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(122, 91, 255, 0.2);
 }
