@@ -1,4 +1,4 @@
-## 🌐 Responsive Personal Portfolio Website 
+## 🌐 Responsive Personal Portfolio Website - Lab Assignment 03
 
 A modern, fully responsive portfolio website built using advanced CSS, smooth animations, semantic HTML, and a clean neon–dark UI theme.
 
