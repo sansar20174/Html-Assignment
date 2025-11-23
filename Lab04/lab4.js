@@ -1,3 +1,10 @@
+// Name: Sansar Kumar
+// Roll No: 2501350055
+// Course: B.Tech CSE (Full Stack Development)
+// Section: B
+
+// JavaScript Console Quiz Game
+
 const quizQuestions = [
     {
         question: "What is the capital of India?",
