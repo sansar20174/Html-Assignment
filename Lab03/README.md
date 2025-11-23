@@ -1,4 +1,4 @@
-## 🌐 Responsive Personal Portfolio Website — Neon Dark Theme
+## 🌐 Responsive Personal Portfolio Website 
 
 A modern, fully responsive portfolio website built using advanced CSS, smooth animations, semantic HTML, and a clean neon–dark UI theme.
 
